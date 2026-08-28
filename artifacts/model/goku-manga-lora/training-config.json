@@ -1,0 +1,15 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "dataset": "artifacts/model/dataset",
+  "output": "artifacts/model/goku-manga-lora",
+  "resolution": 384,
+  "steps": 200,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "rank": 8,
+  "seed": 42,
+  "save_every": 50,
+  "num_workers": 0,
+  "device": "mps",
+  "dataset_size": 62
+}

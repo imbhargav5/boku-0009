@@ -1,0 +1,6 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "lora": "artifacts/model/goku-manga-lora",
+  "prompt": "goku_manga, solo martial artist, spiky black hair, orange and blue gi, dynamic three-quarter pose, clean manga linework",
+  "seed": 1234
+}

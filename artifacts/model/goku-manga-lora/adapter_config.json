@@ -1,0 +1,15 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "target": "unet",
+  "rank": 8,
+  "lora_alpha": 8,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "step": 200,
+  "resolution": 384,
+  "trigger_token": "goku_manga"
+}

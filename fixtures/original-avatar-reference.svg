@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Original spiky-haired avatar reference">
+  <rect width="512" height="512" fill="#07111f"/>
+  <circle cx="256" cy="256" r="215" fill="#102a43"/>
+  <path d="M210 372 L210 424 L302 424 L302 372" fill="#cc8d6f" stroke="#152433" stroke-width="8"/>
+  <path d="M114 512 C125 412 186 390 256 390 C326 390 387 412 398 512" fill="#e8782b" stroke="#152433" stroke-width="10"/>
+  <path d="M148 186 C142 281 180 380 256 398 C332 380 370 281 364 186 C350 124 162 124 148 186 Z" fill="#d99a79" stroke="#152433" stroke-width="10"/>
+  <path d="M150 209 L128 88 L194 112 L206 65 L246 104 L282 49 L310 109 L364 97 L349 207 C321 169 285 155 256 157 C218 153 179 172 150 209 Z" fill="#f4c542" stroke="#152433" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M177 191 L206 128 M225 168 L246 104 M280 167 L282 75 M321 183 L359 113" fill="none" stroke="#b8791d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M171 201 Q205 179 231 203 M281 203 Q307 179 341 201" fill="none" stroke="#152433" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="205" cy="236" rx="18" ry="22" fill="#f7fafc" stroke="#152433" stroke-width="7"/>
+  <ellipse cx="307" cy="236" rx="18" ry="22" fill="#f7fafc" stroke="#152433" stroke-width="7"/>
+  <circle cx="205" cy="238" r="10" fill="#152433"/><circle cx="307" cy="238" r="10" fill="#152433"/>
+  <path d="M256 252 L244 304 L267 304" fill="none" stroke="#a96d55" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M218 355 Q256 362 294 355" fill="none" stroke="#152433" stroke-width="8" stroke-linecap="round"/>
+  <path d="M151 293 L178 304 M361 293 L334 304" fill="none" stroke="#a96d55" stroke-width="8" stroke-linecap="round"/>
+</svg>
