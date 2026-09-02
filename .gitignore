@@ -2,6 +2,9 @@ node_modules/
 .venv/
 __pycache__/
 artifacts/
+models/dbz-manga-panels/data/raw/
+models/dbz-manga-panels/data/processed/
+models/dbz-manga-panels/artifacts/
 .env
 .DS_Store
 playwright-report/

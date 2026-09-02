@@ -1,0 +1,97 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "lora": "artifacts/dbz-panel-lora",
+  "device": "mps",
+  "generation_steps": 12,
+  "reference_profile": "validation-metadata.jsonl",
+  "dataset_profile": {
+    "monochrome_score": 1.0,
+    "black_ink_ratio": 0.07174097696940104,
+    "white_paper_ratio": 0.8147018432617188,
+    "contrast": 0.45967938701311745,
+    "edge_density": 0.11864166259765625
+  },
+  "baseline_mean": {
+    "monochrome_score": 0.7492403984069824,
+    "black_ink_ratio": 0.4049773039641204,
+    "white_paper_ratio": 0.16752567997685186,
+    "contrast": 0.6665497024854025,
+    "edge_density": 0.2651028103298611
+  },
+  "trained_mean": {
+    "monochrome_score": 0.9342434803644816,
+    "black_ink_ratio": 0.3589794017650463,
+    "white_paper_ratio": 0.23255524811921294,
+    "contrast": 0.7097047766049703,
+    "edge_density": 0.2818513093171296
+  },
+  "baseline_style_distance": 2.6371970475149253,
+  "trained_style_distance": 2.1062535526269257,
+  "style_distance_improvement_percent": 20.132871580010168,
+  "elapsed_seconds": 21.96773409843445,
+  "pairs": [
+    {
+      "prompt": "Dragon Ball Z, Goku and Vegeta martial arts duel, black and white manga panel, dramatic speed lines, bold ink",
+      "seed": 9100,
+      "baseline_path": "artifacts/evaluation/baseline/sample-01.png",
+      "baseline_features": {
+        "monochrome_score": 0.7333645820617676,
+        "black_ink_ratio": 0.3963419596354167,
+        "white_paper_ratio": 0.11646185980902778,
+        "contrast": 0.6308203339576721,
+        "edge_density": 0.2685139973958333
+      },
+      "trained_prompt": "dbz_panel, Dragon Ball Z, Goku and Vegeta martial arts duel, black and white manga panel, dramatic speed lines, bold ink",
+      "trained_path": "artifacts/evaluation/trained/sample-01.png",
+      "trained_features": {
+        "monochrome_score": 0.9240201711654663,
+        "black_ink_ratio": 0.3478732638888889,
+        "white_paper_ratio": 0.2161526150173611,
+        "contrast": 0.7185526490211487,
+        "edge_density": 0.2939046223958333
+      }
+    },
+    {
+      "prompt": "Dragon Ball Z, Piccolo fires an energy blast, black and white manga panel, screentone shadows, low angle",
+      "seed": 9101,
+      "baseline_path": "artifacts/evaluation/baseline/sample-02.png",
+      "baseline_features": {
+        "monochrome_score": 0.647095799446106,
+        "black_ink_ratio": 0.4168768988715278,
+        "white_paper_ratio": 0.14601643880208334,
+        "contrast": 0.6699731945991516,
+        "edge_density": 0.2601114908854167
+      },
+      "trained_prompt": "dbz_panel, Dragon Ball Z, Piccolo fires an energy blast, black and white manga panel, screentone shadows, low angle",
+      "trained_path": "artifacts/evaluation/trained/sample-02.png",
+      "trained_features": {
+        "monochrome_score": 0.9336409568786621,
+        "black_ink_ratio": 0.3240085177951389,
+        "white_paper_ratio": 0.24574788411458334,
+        "contrast": 0.7090156674385071,
+        "edge_density": 0.3130628797743056
+      }
+    },
+    {
+      "prompt": "Dragon Ball Z, Gohan determined close-up, cracked battlefield, black and white manga panel, speech bubble",
+      "seed": 9102,
+      "baseline_path": "artifacts/evaluation/baseline/sample-03.png",
+      "baseline_features": {
+        "monochrome_score": 0.8672608137130737,
+        "black_ink_ratio": 0.4017130533854167,
+        "white_paper_ratio": 0.24009874131944445,
+        "contrast": 0.6988555788993835,
+        "edge_density": 0.2666829427083333
+      },
+      "trained_prompt": "dbz_panel, Dragon Ball Z, Gohan determined close-up, cracked battlefield, black and white manga panel, speech bubble",
+      "trained_path": "artifacts/evaluation/trained/sample-03.png",
+      "trained_features": {
+        "monochrome_score": 0.9450693130493164,
+        "black_ink_ratio": 0.4050564236111111,
+        "white_paper_ratio": 0.23576524522569445,
+        "contrast": 0.7015460133552551,
+        "edge_density": 0.23858642578125
+      }
+    }
+  ]
+}

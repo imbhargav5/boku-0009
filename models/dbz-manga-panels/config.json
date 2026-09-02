@@ -1,0 +1,13 @@
+{
+  "name": "dbz-manga-panels",
+  "base_model": "hakurei/waifu-diffusion",
+  "trigger_token": "dbz_panel",
+  "raw_image_limit": 48,
+  "max_crops_per_image": 4,
+  "prepared_size": 512,
+  "training_resolution": 384,
+  "training_steps": 300,
+  "learning_rate": 0.0001,
+  "rank": 16,
+  "seed": 7331
+}

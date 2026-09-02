@@ -1,0 +1,9 @@
+{
+  "steps": 300,
+  "epochs": 3,
+  "elapsed_seconds": 118.65707993507385,
+  "initial_loss": 0.07471077889204025,
+  "final_loss": 0.185869500041008,
+  "final_25_step_mean_loss": 0.12662023686803878,
+  "trainable_parameters": 3319808
+}

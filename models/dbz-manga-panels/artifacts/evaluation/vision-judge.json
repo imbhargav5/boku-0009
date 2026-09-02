@@ -1,0 +1,26 @@
+{
+  "pairs": [
+    {
+      "row": 1,
+      "baseline_score": 75.0,
+      "trained_score": 85.0,
+      "winner": "trained"
+    },
+    {
+      "row": 2,
+      "baseline_score": 60.0,
+      "trained_score": 80.0,
+      "winner": "trained"
+    },
+    {
+      "row": 3,
+      "baseline_score": 80.0,
+      "trained_score": 90.0,
+      "winner": "trained"
+    }
+  ],
+  "summary": "The trained images excel in manga ink, composition, visual vocabulary, and clarity, while the base images are more monochrome and less coherent.",
+  "overall_winner": "trained",
+  "model": "qwen2.5vl:3b",
+  "comparison_image": "artifacts/evaluation/comparison.png"
+}

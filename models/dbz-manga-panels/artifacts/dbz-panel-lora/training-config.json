@@ -1,0 +1,16 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "dataset": "data/processed",
+  "output": "artifacts/dbz-panel-lora",
+  "resolution": 384,
+  "steps": 300,
+  "batch_size": 1,
+  "learning_rate": 0.0001,
+  "rank": 16,
+  "seed": 7331,
+  "save_every": 100,
+  "num_workers": 0,
+  "trigger_token": "dbz_panel",
+  "device": "mps",
+  "dataset_size": 111
+}

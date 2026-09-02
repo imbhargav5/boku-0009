@@ -185,3 +185,13 @@ artifacts/model/
 ```
 
 The `goku_manga` token in the captions and default prompt is the adapter's trigger. Later, the same trainer can be rerun with more curated images, a higher step count, or a stronger SDXL/anime base on a larger GPU.
+
+## Train the separate DBZ manga-panel model
+
+The character adapter above is intentionally not reused for panel generation. A second, isolated pipeline lives in [`models/dbz-manga-panels`](models/dbz-manga-panels/README.md). It collects monochrome DBZ comic references, slices long pages into panel-sized training examples, trains a LoRA with the separate `dbz_panel` trigger, and produces a paired base-versus-trained evaluation.
+
+```bash
+npm run manga-panels:e2e
+```
+
+Its dataset, weights, evaluation report, and generated samples stay under that model's own subdirectory.

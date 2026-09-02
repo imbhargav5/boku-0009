@@ -12,7 +12,15 @@
     "collect": "tsx src/index.ts collect",
     "prepare:model-dataset": "node training/prepare_dataset.mjs",
     "train:lora": "./.venv/bin/python training/train_lora.py",
-    "generate:model": "./.venv/bin/python training/generate.py"
+    "generate:model": "./.venv/bin/python training/generate.py",
+    "manga-panels:collect": "node models/dbz-manga-panels/scripts/collect_dataset.mjs",
+    "manga-panels:prepare": "./.venv/bin/python models/dbz-manga-panels/prepare_dataset.py",
+    "manga-panels:train": "./.venv/bin/python models/dbz-manga-panels/train_lora.py",
+    "manga-panels:evaluate": "./.venv/bin/python models/dbz-manga-panels/evaluate.py",
+    "manga-panels:judge": "./.venv/bin/python models/dbz-manga-panels/judge_samples.py",
+    "manga-panels:generate": "./.venv/bin/python models/dbz-manga-panels/generate.py",
+    "manga-panels:test": "./.venv/bin/python -m unittest discover models/dbz-manga-panels/tests -v",
+    "manga-panels:e2e": "./.venv/bin/python models/dbz-manga-panels/run_pipeline.py"
   },
   "dependencies": {
     "playwright": "^1.57.0",

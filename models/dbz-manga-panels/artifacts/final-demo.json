@@ -1,0 +1,13 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "lora": "artifacts/dbz-panel-lora",
+  "prompt": "dbz_panel, Dragon Ball Z, Goku and Vegeta martial arts duel, black and white manga panel, bold ink line art, screentone shading, speed lines, dramatic low angle, speech bubbles",
+  "negative_prompt": "color, painting, 3d render, photorealistic, blurry, low contrast, watermark, logo",
+  "seed": 20260902,
+  "steps": 18,
+  "guidance": 7.0,
+  "width": 384,
+  "height": 384,
+  "device": "mps",
+  "elapsed_seconds": 12.724961996078491
+}

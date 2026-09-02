@@ -1,0 +1,15 @@
+{
+  "base_model": "hakurei/waifu-diffusion",
+  "target": "unet",
+  "rank": 16,
+  "lora_alpha": 16,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ],
+  "step": 300,
+  "resolution": 384,
+  "trigger_token": "dbz_panel"
+}
